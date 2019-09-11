@@ -297,4 +297,8 @@
             return Slug.slugify(input);
         };
     }]);
+    
+     if(typeof module !== 'undefined' && module.exports){
+        module.exports = mod;
+      } 
 })();
